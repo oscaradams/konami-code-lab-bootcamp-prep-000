@@ -33,9 +33,4 @@ function init() {
 })
 }
 
-function passwords(e){
-  
-  
-  
-}
 
