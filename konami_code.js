@@ -17,11 +17,6 @@ function init() {
   const main = document.body;
   
  main.addEventListener('keydown', function(passwords){
-  
-})
-}
-
-function passwords(e){
   const key = e.key;
  
   if (key === codes[index]) {
@@ -35,6 +30,11 @@ function passwords(e){
   } else {
     index = 0;
   }
+})
+}
+
+function passwords(e){
+  
   
   
 }
