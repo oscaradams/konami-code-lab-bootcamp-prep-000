@@ -16,7 +16,7 @@ let index = 0;
 function init() {
   const main = document.body;
   
- main.addEventListener('keydown', function(passwords){
+ main.addEventListener('keydown', function(e){
   const key = e.key;
  
   if (key === codes[index]) {
